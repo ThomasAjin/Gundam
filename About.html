@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<div class="sticky">
+<ul>
+	<li><a class="active" href="index.html">Home</a></li>
+	<li><a href="News.html">News</a></li>
+	<li><a href="Gallery.html">Gallery</a></li>
+	<li><a href="#about">About</a></li>
+</ul></div>
+<style>
+    /* Set display to none for image*/
+    #image {
+        display: none;
+    }
+</style>
+
+	<link rel = "stylesheet" href = "style.css">
+	<style>
+		body {
+		  background-image: url('https://wallpapercrafter.com/desktop/289246-milky-way-starry-sky-night-sky-star-night-sky.jpg');
+		}
+		</style>
+	<head>
+		<title>Gundam's Website</title>
+        <h1>About Website</h1>
+        <h2>informathion from</h2><a href="https://en.wikipedia.org/wiki/Gundam">https://en.wikipedia.org/wiki/Gundam</a>
+        <h3>Thanks for</h3><a href="https://en.gundam.info/">https://en.gundam.info/</a>
+        <h4>My first gundam</h4>
+    
+        <div>
+            <h1>Gundam OO</h1>
+            <h3>Click on the button to see image</h3>
+            
+            <img id="image" src=
+    "https://th.bing.com/th/id/R.dfd62d934bafca211a506ed04f6c2516?rik=gWnylKPaMoX9DQ&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f20700000%2fGundam-00-mobile-suit-gundam-00-20740655-1600-1200.jpg&ehk=5xaUqw4Us21wl0FLNq%2fLw5vlIxxn8gTsHRgTjyJADXg%3d&risl=&pid=ImgRaw&r=0"
+                alt="Gundam image" />
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+        First and favourite Gundam
+    </button>
+    <script>
+        function show() {
+
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+    </script>
+    <a target="image" href="https://th.bing.com/th/id/R.dfd62d934bafca211a506ed04f6c2516?rik=gWnylKPaMoX9DQ&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f20700000%2fGundam-00-mobile-suit-gundam-00-20740655-1600-1200.jpg&ehk=5xaUqw4Us21wl0FLNq%2fLw5vlIxxn8gTsHRgTjyJADXg%3d&risl=&pid=ImgRaw&r=0"></a>
+
+
